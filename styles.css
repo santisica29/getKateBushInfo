@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(152, 224, 233);
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+img {
+  width: 20rem;
+  display: none;
+}
+
+button {
+  padding: .75rem 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px 10px white;
+}
